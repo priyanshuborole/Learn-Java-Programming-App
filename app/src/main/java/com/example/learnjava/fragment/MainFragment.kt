@@ -8,8 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.view.SupportActionModeWrapper
 import androidx.navigation.fragment.findNavController
+import com.example.learnjava.InterviewActivity
 import com.example.learnjava.QuestionActivity
 import com.example.learnjava.R
+import com.example.learnjava.YoutubeActivity
 import com.example.learnjava.databinding.FragmentMainBinding
 class MainFragment : Fragment() {
     lateinit var binding : FragmentMainBinding
@@ -37,6 +39,19 @@ class MainFragment : Fragment() {
             val intent = Intent(activity,QuestionActivity::class.java)
             startActivity(intent)
 
+        }
+        binding.videoBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_videoFragment)
+        }
+        binding.interviewQueBtn.setOnClickListener {
+            val iIntent = Intent(activity,InterviewActivity::class.java)
+            startActivity(iIntent)
+        }
+        binding.shareBtn.setOnClickListener {
+            val i = Intent(Intent.ACTION_SEND)
+            i.type = "text/plain"
+            i.putExtra(Intent.EXTRA_TEXT, "Checkout this app to learn java programming, --link--(will be provided soon")
+            startActivity(Intent.createChooser(i, "Share this app with"))
         }
     }
 

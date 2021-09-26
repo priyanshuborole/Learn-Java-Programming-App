@@ -17,7 +17,7 @@ class QuestionActivity : AppCompatActivity() {
         val tablayout = findViewById<TabLayout>(R.id.tabLayout)
         val fragmentAdapter = FragmentAdapter(supportFragmentManager)
         fragmentAdapter.addFragment(Easy() , "Easy")
-        fragmentAdapter.addFragment(Medium() , "Medium.kt")
+        fragmentAdapter.addFragment(Medium() , "Medium")
         fragmentAdapter.addFragment(Hard() , "Hard")
 
         viewPager.adapter = fragmentAdapter

@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_mainFragment_to_theoryFragment"
             app:destination="@id/theoryFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
     </fragment>
     <fragment
         android:id="@+id/textDisplayFragment"
@@ -32,4 +35,9 @@
             android:name="pos"
             app:argType="integer" />
     </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.learnjava.fragment.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
 </navigation>

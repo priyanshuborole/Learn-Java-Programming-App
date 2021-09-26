@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/btn_stroke.xml" value="0.2203125" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/card_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/gradient_btn1.xml" value="0.2203125" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/gradient_btn2.xml" value="0.2203125" />
@@ -11,15 +12,21 @@
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/gradient_btn5.xml" value="0.2203125" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/gradient_btn6.xml" value="0.2203125" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/head_bar.xml" value="0.2203125" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/drawable/login_gradient.xml" value="0.2203125" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_interview.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_question.xml" value="0.2" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_question.xml" value="0.264" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_question_display.xml" value="0.2" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_sawo.xml" value="0.264" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/activity_youtube.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/easyques_ist.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_easy.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_hard.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_main.xml" value="0.264" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_medium.xml" value="0.2" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_ques_display.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_question.xml" value="0.2" />
-        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_text_display.xml" value="0.2" />
+        <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_text_display.xml" value="0.4" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_theory.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/fragment_video.xml" value="0.2" />
         <entry key="..\:/Users/priyanshu borole/AndroidStudioProjects/LearnJava/app/src/main/res/layout/quest_list.xml" value="0.2" />

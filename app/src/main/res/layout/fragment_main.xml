@@ -8,7 +8,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
+    android:padding="13dp"
     tools:context=".fragment.MainFragment">
     <TextView
         android:id="@+id/title"
@@ -17,7 +17,7 @@
         android:fontFamily="sans-serif-black"
         android:text="Learn Java Programming"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/slogan"/>
@@ -45,7 +45,7 @@
         android:text="Theory"
         android:textAlignment="textStart"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/videoBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -56,7 +56,7 @@
         android:id="@+id/videoBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="13dp"
         android:background="@drawable/gradient_btn2"
         android:fontFamily="@font/calibri_bold"
         android:padding="20dp"
@@ -74,7 +74,7 @@
         android:id="@+id/questionBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="13dp"
         android:background="@drawable/gradient_btn3"
         android:fontFamily="@font/calibri_bold"
         android:padding="20dp"
@@ -84,7 +84,6 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/interviewQueBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/videoBtn" />
 
@@ -92,7 +91,7 @@
         android:id="@+id/interviewQueBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="13dp"
         android:background="@drawable/gradient_btn4"
         android:fontFamily="@font/calibri_bold"
         android:padding="20dp"
@@ -110,7 +109,7 @@
         android:id="@+id/shareBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="13dp"
         android:background="@drawable/gradient_btn5"
         android:fontFamily="@font/calibri_bold"
         android:padding="20dp"
@@ -118,13 +117,13 @@
         android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/removeAddBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/interviewQueBtn" />
 
-    <android.widget.Button
+   <!-- <android.widget.Button
         android:id="@+id/removeAddBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -140,7 +139,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shareBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/shareBtn" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -3,13 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:id="@+id/cardView"
-    android:padding="8dp"
     android:layout_height="match_parent"
-    tools:context=".fragment.Easy">
+    tools:context=".YoutubeActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/easy_recycler"
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -36,7 +36,6 @@ class TheoryFragment : Fragment(R.layout.fragment_theory),TheoryAdapter.onItemCl
     }
 
    override fun onItemClick(position: Int) {
-        Toast.makeText(activity,"clicked $position",Toast.LENGTH_LONG).show()
         val pos = position
         val action = TheoryFragmentDirections.actionTheoryFragmentToTextDisplayFragment(pos)
         findNavController().navigate(action)

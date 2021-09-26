@@ -9,26 +9,28 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.learnjava.R
 import com.example.learnjava.fragment.TheoryFragment
 
-class TheoryAdapter(private  var listner : onItemClickListener): RecyclerView.Adapter<TheoryAdapter.ViewHolder>() {
+class TheoryAdapter(private  var mlistner : onItemClickListener): RecyclerView.Adapter<TheoryAdapter.ViewHolder>() {
 
     interface onItemClickListener{
         fun onItemClick(position: Int)
     }
 
-   /* fun setOnItemClickListener(listener: onItemClickListener){
+    fun setOnItemClickListener(listener: onItemClickListener){
         mlistner = listener
-    }*/
+    }
 
-    private var title = arrayOf("Get Started","Hello World","Variables & Operators","Input","Control Statement",
-                                "Functions","Arrays","Classes & Objects","Inheritance","PolyMorphism","Abstract & Interference","Collections","Files" )
+    private var title = arrayOf("Get Started","Hello World","Variables & Datatype", "Input","String","If-Else" ,
+        "Switch Case","Loops" , "Arrays","Method and method overloading","Recursion","Access modifiers, getters & setters",
+       "Constructors" , "Inheritance","Method Overriding","Abstract Class & Methods","Packages" )
+
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.theory_list,parent,false)
         val viewHolder = ViewHolder(v)
-        viewHolder.cardView.setOnClickListener {
-            listner.onItemClick(viewHolder.absoluteAdapterPosition)
-        }
+      /*  viewHolder.cardView.setOnClickListener {
+            mlistner.onItemClick(viewHolder.absoluteAdapterPosition)
+        }*/
         return ViewHolder(v)
     }
 
@@ -41,21 +43,21 @@ class TheoryAdapter(private  var listner : onItemClickListener): RecyclerView.Ad
         return title.size
     }
 
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),View.OnClickListener {
         var theoryTitle: TextView = itemView.findViewById(R.id.theory_title)
-        var cardView = itemView.findViewById<View>(R.id.cardView)
+        //var cardView = itemView.findViewById<View>(R.id.cardView)
         init {
-            //itemView.setOnClickListener(this)
+            itemView.setOnClickListener(this)
         }
 
-        /*override fun onClick(v: View?) {
+        override fun onClick(v: View?) {
             val position = bindingAdapterPosition
             if (position!=RecyclerView.NO_POSITION) {
                 if (v != null) {
                     mlistner.onItemClick(position)
                 }
             }
-        }*/
+        }
 
     }
 }
