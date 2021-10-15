@@ -10,7 +10,7 @@ class YoutubeActivity : YouTubeBaseActivity() {
                                  "25zw-ljLLw0","Fxj4n8En8lw","XSuybcFfLx4","DSZI90Db24I","vqV22AszAdw","VYhmL038G1I",
                                  "rzA7UJ-hQn4","k7TwStbkK70")
 
-    val YT_API_KEY = "AIzaSyARfupf6NK_Xscu2CtVKUz0f9E5mHmLViM"
+    val YT_API_KEY = //"yt api key"
     private lateinit var youtublePlayer: YouTubePlayerView
     lateinit var youtubePlayerInit : YouTubePlayer.OnInitializedListener
     override fun onCreate(savedInstanceState: Bundle?) {

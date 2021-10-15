@@ -14,8 +14,8 @@ class SawoActivity : AppCompatActivity() {
         loginEmail.setOnClickListener {
             Sawo(
                 this,
-                "0b5041a8-fa82-4fe5-bc8e-c11eee44fb2c", // your api key
-                "614ed77eec39c0c001ec607bjiXwK34ApwmHPhVlSzSzXZH2"  // your api key secret
+                // "your api key"
+                // "your api key secret"
             ).login(
                 "email", // can be one of 'email' or 'phone_number_sms'
                 MainActivity::class.java.name // Callback class name
@@ -24,8 +24,8 @@ class SawoActivity : AppCompatActivity() {
             loginPhone.setOnClickListener {
                 Sawo(
                     this,
-                    "0b5041a8-fa82-4fe5-bc8e-c11eee44fb2c", // your api key
-                    "614ed77eec39c0c001ec607bjiXwK34ApwmHPhVlSzSzXZH2"  // your api key secret
+                    // "your api key"
+                    // "your api key secret"
                 ).login(
                     "phone_number_sms", // can be one of 'email' or 'phone_number_sms'
                     MainActivity::class.java.name // Callback class name
