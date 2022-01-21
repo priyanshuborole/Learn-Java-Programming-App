@@ -18,7 +18,8 @@
 
 
 ### App link
-[Learn Java download link](https://drive.google.com/file/d/14zJO3CTA55R_hS5qR99YC86SgjR0ac3t/view?usp=sharing)
+[Learn Java download link](https://play.google.com/store/apps/details?id=com.onesevendev.offlinelearnjava)
+
 [video link](https://drive.google.com/file/d/1plS9FM6y3UryZWD0o8vJYDcAb94pLjxD/view?usp=sharing)
 ## Feedback
 
